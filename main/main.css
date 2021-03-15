@@ -24,10 +24,9 @@
       }
       
       div iframe{
-        width: 350px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin-top: 10px;
-        padding: 10px;
       }
 
       iframe:hover{
