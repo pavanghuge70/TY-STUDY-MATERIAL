@@ -1,0 +1,42 @@
+    @media only screen and (min-width:250px)
+    {     
+        .res  li {
+            float: left;
+          }
+    }
+
+    div.desc {
+        margin-top: 10px;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .img-shap img{
+        height: 200px; 
+        width: 330px;
+      }
+
+      .pics img 
+      {
+        height: 168px; 
+        width: 330px;
+        margin-top: 5px;
+      }
+      
+      div iframe{
+        width: 350px;
+        height: 300px;
+        margin-top: 10px;
+        padding: 10px;
+      }
+
+      iframe:hover{
+        background-color: beige;
+      }
+
+      .img-shap img:hover{
+        border-radius: 25%;
+      }
+     .set-h a img {
+        height: 195px;
+      }

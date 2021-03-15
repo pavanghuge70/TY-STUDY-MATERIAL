@@ -8,20 +8,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>TY STUDY MATERIAL</title>
+
+    <link rel="stylesheet" href="main/main.css">
 </head>
 <body>
-    <div class="flex-box-container-3">
+    
+  <div class="res">
+    <div class="topnav flex-box-container-3 navbar-fixed-top" id="myTopnav">
         <nav class="navbar navbar-inverse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="Book.html">Book</a></li>
+                <li  class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="">Book<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                     <li><a href="Book.html">TY-CSE</a></li><br>
+                     <li><a href="#"></a></li>
+                     <li><a href="TY-IT-Book.html">TY-IT</a></li>
+                    </ul>
+                </li>
                 <li><a href="Lecture.html">Lecture</a></li>
                 <!--<li><a href="placment.html">Placment</a></li>-->
             </ul>
         </nav>
     </div>
+  </div>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 55px;">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -63,23 +75,25 @@
     </div>
 
 
-    <div class="media">
+    <div class="pics">
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="images/h1.jpg" alt="" style="height: 168px; width: 330px;">
+                    <img src="images/h1.jpg" alt="" >
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="images/h2.jpg" alt="" style="height: 168px; width: 330px;">
+                    <img src="images/h2.jpg" alt="">
                 </div>
             </div>
             <div class="thumbnail">
-                <img src="images/h3.jpg" alt="" style="height: 168px; width: 330px;">
+                <img src="images/h3.jpg" alt="">
             </div>
         </div>
     </div>
+
+     <script src="js/js.js"></script>
 </body>
 </html>
