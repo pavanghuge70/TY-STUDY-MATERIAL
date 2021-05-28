@@ -11,6 +11,11 @@
         text-align: center;
       }
 
+      div .desc img {
+        width: 330px;
+        height: 200px;
+      }
+
       .img-shap img{
         height: 200px; 
         width: 330px;
@@ -39,4 +44,68 @@
       }
      .set-h a img {
         height: 195px;
+      }
+
+      .logo {
+        background-color: beige;
+        padding: 10px;
+        height: 60px;
+        width: 98%;
+      }
+      .logo .syllabus {
+        color: black;
+        font-size: 30px;
+        font-style:oblique;
+        float: left;
+      }
+
+      .logo .syllabus:hover{
+        color: orange;
+      }
+
+      .q_paper a{
+         color: black;
+         float:right;
+         font-style: oblique;
+         font-size: 15px;
+        }
+        .q_paper {
+          float: right;
+          margin-right: 60px;
+        }
+
+        .q_paper a:hover{
+          color: orange;
+        }
+
+        .q_paper li a {
+          float: left;
+        }
+
+        @media only screen and (max-width : 400px)
+        {
+          .q_paper{
+            margin-right: 20px;
+          }
+        }
+
+        @media only screen and (max-width : 300px)
+        {
+          .logo {
+            width: 100%;
+          }
+        }
+
+        .cg {
+          text-align: center;
+          top: 50%;
+          position: absolute;
+          left: 50%;
+      }
+      .sub {
+        
+        background-image: url('../images/mountains.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
